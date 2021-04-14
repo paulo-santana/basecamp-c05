@@ -1,5 +1,6 @@
-#include "ft_iterative_factorial.c"
 #include <stdio.h>
+
+int	ft_iterative_factorial(int nb);
 
 int	main(void)
 {

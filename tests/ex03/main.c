@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ft_recursive_power.c"
+
+int	ft_recursive_power(int nb, int power);
 
 int	main(void)
 {

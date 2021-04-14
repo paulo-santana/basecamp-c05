@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ft_is_prime.c"
+
+int	ft_is_prime(int nb);
 
 int	main(void)
 {

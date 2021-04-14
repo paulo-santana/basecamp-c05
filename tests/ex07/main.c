@@ -1,5 +1,6 @@
-#include "ft_find_next_prime.c"
 #include <stdio.h>
+
+int	ft_find_next_prime(int nb);
 
 int	main(int argc, char *argv[])
 {
@@ -15,6 +16,7 @@ int	main(int argc, char *argv[])
 		if (ft_find_next_prime(6) == 7 &&
 			ft_find_next_prime(-1) == 2 &&
 			ft_find_next_prime(-30) == 2 &&
+			ft_find_next_prime(2) == 2 &&
 			ft_find_next_prime(-2222220) == 2 &&
 			ft_find_next_prime(7) == 7 &&
 			ft_find_next_prime(8) == 11 &&

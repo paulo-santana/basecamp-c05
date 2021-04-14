@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ft_fibonacci.c"
+
+int ft_fibonacci(int index);
 
 int	main(void)
 {

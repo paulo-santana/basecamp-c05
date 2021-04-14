@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ft_sqrt.c"
+
+int	ft_sqrt(int nb);
 
 int	main(void)
 {

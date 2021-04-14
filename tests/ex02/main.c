@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ft_iterative_power.c"
+
+int	ft_iterative_power(int nb, int power);
 
 int	main(void)
 {
