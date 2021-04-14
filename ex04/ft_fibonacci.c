@@ -10,7 +10,7 @@ int ft_fibonacci(int index)
 		return (0);
 	if (index == 1)
 		return (1);
-	if (index >= 48)
+	if (index >= 47)
 		return (0);
 	if (g_previous_answers[index] != 0)
 		return (g_previous_answers[index]);
