@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 
 void	print_queens(int board[10][10])
@@ -21,7 +20,7 @@ void	print_queens(int board[10][10])
 	write(1, "\n", 1);
 }
 
-int		can_place(int board[10][10], int col, int row)
+int	can_place(int board[10][10], int col, int row)
 {
 	int	i;
 	int	j;
@@ -42,11 +41,11 @@ int		can_place(int board[10][10], int col, int row)
 	return (1);
 }
 
-int		place_queen(int board[10][10], int col)
+int	place_queen(int board[10][10], int col)
 {
-	int row;
+	int	row;
 	int	boards_found;
-	int result;
+	int	result;
 
 	boards_found = 0;
 	if (col > 9)
@@ -68,7 +67,7 @@ int		place_queen(int board[10][10], int col)
 	return (result);
 }
 
-int		ft_ten_queens_puzzle(void)
+int	ft_ten_queens_puzzle(void)
 {
 	int	i;
 	int	board[10][10];
